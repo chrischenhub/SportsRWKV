@@ -9,7 +9,7 @@ tags:
 - sports
 ---
 #### Use this model space for inference
-https://huggingface.co/spaces/Chrisneverdie/https://huggingface.co/spaces/Chrisneverdie/SportsRWKV
+https://huggingface.co/spaces/Chrisneverdie/SportsRWKV
 
 This model is built on RWKV 6 structure - an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 
