@@ -8,7 +8,7 @@ pipeline_tag: text-generation
 tags:
 - sports
 ---
-#### Use this model space for inference
+#### Use this model space for example inference
 https://huggingface.co/spaces/Chrisneverdie/SportsRWKV
 
 This model is built on RWKV 6 structure - an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
@@ -104,7 +104,7 @@ python train.py --load_model "0" --wandb "SportsRWKV_ft" --proj_dir "output/" --
 ```
 
 
-## Ask Your Question!
+## Inference
 For inference, use: https://github.com/BlinkDL/ChatRWKV/blob/main/RWKV_v6_demo.py
 
 
