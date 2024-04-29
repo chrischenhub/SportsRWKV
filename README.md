@@ -8,10 +8,7 @@ pipeline_tag: text-generation
 tags:
 - sports
 ---
-
-#### Do not run the inference from Model card it won't work!!
-#### Ignore config.json
-#### Use this model space instead!!
+#### Use this model space for inference
 https://huggingface.co/spaces/Chrisneverdie/https://huggingface.co/spaces/Chrisneverdie/SportsRWKV
 
 This model is built on RWKV 6 structure - an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
@@ -37,7 +34,7 @@ about the potential of a language model that is exclusively trained and fine-tun
 related data. We aim to assess its performance against generic language models, thus delving
 into the unique nuances and demands of the sports industry
 
-This model structure is built by BlinkDL: https://github.com/BlinkDL/RWKV-LM
+This model structure is built by BlinkDL: _https://github.com/BlinkDL/RWKV-LM_
 
 
 ### Pretrain Data 
@@ -46,6 +43,7 @@ https://huggingface.co/datasets/Chrisneverdie/SportsRWKV
 
 
 ## Pretrain
+For checkpoint file visit: _https://huggingface.co/Chrisneverdie/SportsRWKV_150m_
 To replicate our model, you need to use fixed_text_document.bin & fixed_text_document.idx, which is processed and ready to train.
 We trained on a 2xH100 80GB node for 5 hrs to get a val loss ~2.305. Once you set up the environment:
 
